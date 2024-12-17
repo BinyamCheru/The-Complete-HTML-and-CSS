@@ -1,0 +1,22 @@
+/* 
+:link - unvisited links with href
+:visited - visited links
+:hover - hover
+:active - as the user click's 
+a - all links
+*/
+
+a {
+  display: block;
+  background: red;
+  margin: 10px;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: green;
+}
+a:active {
+  color: blue;
+}
